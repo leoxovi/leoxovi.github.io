@@ -1,0 +1,14 @@
+---
+title: Digital Portfolio
+subtitle: Website Design
+layout: default
+modal-id: 1
+date: 2020-06-20
+img: dreams.png
+thumbnail: dreams-thumbnail.png
+alt: image-alt
+project-date: June 2020
+category: Web Development
+description: During the Covid-19 Circuit Breaker measures, I explored web development and UI/UX, working on an online portfolio.
+
+---
