@@ -4,11 +4,12 @@ subtitle: Website Design
 layout: default
 modal-id: 1
 date: 2020-06-20
-img: dreams.png
-thumbnail: dreams-thumbnail.png
+img: Digital Portfolio.jpg
+thumbnail: Digital Portfolio-thumbnail.jpg
 alt: image-alt
+git: Hi
 project-date: June 2020
 category: Web Development
-description: During the Covid-19 Circuit Breaker measures, I explored web development and UI/UX, working on an online portfolio.
+description: During the Covid-19 Circuit Breaker period, I explored web development and UI/UX and developed an online portfolio.
 
 ---
