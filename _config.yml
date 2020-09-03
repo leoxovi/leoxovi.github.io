@@ -24,27 +24,26 @@
 title: Garry's Portfolio
 email: garryfung@u.nus.edu
 description: Welcome! This online portfolio is a pet project of mine during the Covid-19 circuit breaker period, experimenting with web development and UI/UX topics.
+# When Local Host
+# baseurl: ""
+# When push to Git
 baseurl: "https://leoxovi.github.io/"
 
 # Team names, titles and social links
 people:
 - name: Garry Fung
-  pic: 2
+  pic: 0
   position: Project Engineer
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
     - title: linkedin
       url: "http://linkedin.com/garryfung"
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: "http://github.com/leoxovi"
+    url: "https://twitter.com/leoxovi"
   - title: facebook
-    url:
+    url: "https://www.facebook.com/leoxovi/"
   - title: stack-overflow
     url: "https://stackoverflow.com/users/6132371/leoxovi"
   - title: bitbucket
