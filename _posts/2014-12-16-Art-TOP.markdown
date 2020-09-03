@@ -3,7 +3,7 @@ title: T.O.P.
 subtitle: Graphite Art
 layout: default
 tag: Portrait Art
-modal-id: 3
+modal-id: 2
 date: 2014-12-16
 img: TOP.jpg
 thumbnail: TOP-thumbnail.jpg
