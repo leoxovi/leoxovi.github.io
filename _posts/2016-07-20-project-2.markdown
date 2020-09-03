@@ -3,12 +3,12 @@ title: T.O.P.
 subtitle: Graphite Art
 layout: default
 tag: Portrait Art
-modal-id: 2
+modal-id: 3
 date: 2014-12-16
 img: TOP.jpg
 thumbnail: TOP-thumbnail.jpg
 alt: image-alt
-url:
+git: https://www.instagram.com/p/wrGNhpzX_2/
 project-date: December 2014
 category: Art
 description: Sketch of Choi Seung-Hyun from BIGBANG. Steadler pencils (2H, 4H, B, 2B, 3B & 6B)

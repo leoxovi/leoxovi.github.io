@@ -17,9 +17,18 @@
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                             <p>{{ post.description }}</p>
                             <ul class="list-inline item-details">
+                            {% for category in post.category %}
+                            {% if category == "Portfolio" %}
                                 <li>Git:
                                     <strong><a href= {{ post.git }}>Click Here</a>
                                     </strong>
+                            {% endif %}
+                            {% if category == "Art" %}
+                            <li>Instagram:
+                                <strong><a href= {{ post.git }}>Click Here</a>
+                                </strong>
+                            {% endif %}
+                            {% endfor %}
                                 </li>
                                 <li>Date:
                                     <strong>{{ post.project-date }}

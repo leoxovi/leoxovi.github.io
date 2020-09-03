@@ -4,28 +4,30 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Artworks</h2>
-                    <h3 class="section-subheading text-muted">A collection of some of my past works<br>work-in-progress</h3>
+                    <h3 class="section-subheading text-muted">Collection of some of my artworks</h3>
                 </div>
             </div>
             <div class="row">
-<!--
             {% for post in site.posts %}
+            {% for category in post.category %}
+            {% if category == "Art" %}
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
+                        <!-- <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
-                        </div>
-                        <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
+                        </div> -->
+                        <img src="img/art/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
                     </a>
-                    <div class="portfolio-caption">
+                    <div class="portfolio-caption text-center">
                         <h4>{{ post.title }}</h4>
                         <p class="text-muted">{{ post.subtitle }}</p>
                     </div>
                 </div>
+            {% endif %}
             {% endfor %}
--->
+            {% endfor %}
             </div>
         </div>
     </section>
