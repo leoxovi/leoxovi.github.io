@@ -29,14 +29,14 @@ baseurl: "https://leoxovi.github.io/"
 
 # Team names, titles and social links
 people:
-- name: Garry Fung
-  pic: 0
-  position: Project Engineer
-  social:
-    - title: linkedin
-      url: "http://linkedin.com/garryfung"
+  - name: Garry Fungs
+    pic: 0
+    position: Project Engineer
+    social:
+      - title: linkedin
+        url: "http://linkedin.com/garryfung"
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+    # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
     url: "https://twitter.com/leoxovi"
@@ -59,3 +59,15 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 94a1ed
+  secondary: 94a1ed
+  secondary-dark: 333
+  muted: 777
+
+# Font Families
+font:
+  primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
+  secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
