@@ -37,20 +37,20 @@ people:
     - title: facebook
       url: #
     - title: linkedin
-      url: #
+      url: "http://linkedin.com/garryfung"
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://github.com/leoxovi
+    url: "http://github.com/leoxovi"
   - title: facebook
     url:
   - title: stack-overflow
-    url: https://stackoverflow.com/users/6132371/leoxovi
+    url: "https://stackoverflow.com/users/6132371/leoxovi"
   - title: bitbucket
-    url: http://github.com/leoxovi
+    url: "http://github.com/leoxovi"
   - title: github
-    url: http://github.com/leoxovi
+    url: "http://github.com/leoxovi"
 
 # Postal address (add as many lines as necessary)
 address:
