@@ -315,7 +315,14 @@ header .overlay {
   z-index: 1;
 }
 
-
+header .viewport-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    opacity: var(--headerOpacity);
+    transform: scale(var(--headerScale));
+  }
 /* End of testing of video */
 header .intro-text {
     padding-top: 100px;
@@ -413,7 +420,7 @@ section h3.section-subheading {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    background: rgba(254,209,54,.9); /* Fallback when no plugin support */
+    background: rgba(52, 152, 219, 1); /* Fallback when no plugin support */
     background: rgba({{ site.data.template.color.primary | hex_to_rgb | join: ',' }}, .9);
 }
 
