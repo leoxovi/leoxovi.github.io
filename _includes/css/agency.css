@@ -269,26 +269,21 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    /* background-image: url('{{ site.baseurl }}/img/header-bg.jpg'); */
-    /* background-video:  url('{{ site.baseurl }}/media/cover.jpg'); */
+    background-image: url('{{ site.baseurl }}/img/header-bg.gif');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    height: 50vh;
-    min-height: 25rem;
-    width: 100%;
-    overflow: hidden;
 }
-/* Test for Video */
+/* Start of Testing of Video */
 header video {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
+  /* top: 50%;
+  left: 50%; */
+  /* min-width: 100%;
+  min-height: 100%; */
   width: auto;
   height: auto;
   z-index: 0;
@@ -296,8 +291,32 @@ header video {
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
-/* End test for video */
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+
+/* End of testing of video */
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
