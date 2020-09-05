@@ -23,9 +23,9 @@ title: Garry's Portfolio
 email: garryfung@u.nus.edu
 description: Welcome! This online portfolio is a project of mine during the Covid-19 circuit breaker period, experimenting with web development and UI/UX topics.
 # When Local Host
-# baseurl: ""
+baseurl: ""
 # When push to Git
-baseurl: "https://leoxovi.github.io/"
+# baseurl: "https://leoxovi.github.io/"
 
 # Team names, titles and social links
 people:
@@ -57,7 +57,7 @@ address:
   - line:
 
 # Build settings
-markdown: GFM
+markdown: kramdown
 permalink: pretty
 
 # Color settings (hex-codes without the leading hash-tag)
