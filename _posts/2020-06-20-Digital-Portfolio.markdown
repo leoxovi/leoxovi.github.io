@@ -2,8 +2,8 @@
 title: Digital Portfolio
 subtitle: Website Design
 layout: default
-tag: Web Development
-modal-id: 1
+tags: Web Development
+modal-id: 2
 date: 2020-06-20
 img: Digital Portfolio.jpg
 thumbnail: Digital Portfolio-thumbnail.jpg
