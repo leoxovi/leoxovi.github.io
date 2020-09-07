@@ -18,14 +18,14 @@
             <p>{{ post.description }}</p>
             <ul class="list-inline item-details">
               {% for category in post.category %}
-              {% if category == "Portfolio" %}
-              <li>Git:
-                <strong><a href= {{ post.git }}>Click Here</a>
+              {% if category != "Art" %}
+              <li>Link:
+                <strong><a href= {{ post.git }}> Click Here</a>
                 </strong>
                 {% endif %}
                 {% if category == "Art" %}
                 <li>Instagram:
-                  <strong><a href= {{ post.git }}>Click Here</a>
+                  <strong><a href= {{ post.git }}> Click Here</a>
                   </strong>
                   {% endif %}
                   {% endfor %}
@@ -38,8 +38,8 @@
                   <strong>{{ post.category }}
                   </strong>
                 </li>
-                <li>Tools:
-                  <strong>{{ post.tag }}
+                <li>Tags:
+                  <strong>{{ post.tags }}
                   </strong>
                 </li>
               </ul>
