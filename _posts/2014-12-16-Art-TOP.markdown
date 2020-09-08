@@ -2,7 +2,7 @@
 title: T.O.P.
 subtitle: Graphite Art
 layout: default
-tags: Portrait Art
+tag: Portrait Art
 modal-id: 1
 date: 2014-12-16
 img: TOP.jpg

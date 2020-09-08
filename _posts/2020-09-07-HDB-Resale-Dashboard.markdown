@@ -2,8 +2,8 @@
 title: HDB Resale Price Dashboard
 subtitle: Data Visualisation
 layout: default
-tags: Dashboard, Qlik
-modal-id: 3
+tag: Dashboard, Qlik
+modal-id: 4
 date: 2020-06-20
 img: HDB-Resale.jpg
 thumbnail: HDB-Resale-thumbnail.jpg
