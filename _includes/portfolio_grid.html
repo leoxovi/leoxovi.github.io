@@ -1,33 +1,111 @@
 <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">Past Projects</h3>
+<section id="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Portfolio</h2>
+        <h3 class="section-subheading text-muted">Past Projects</h3>
+      </div>
+    </div>
+    <div class="row">
+      <ul class="nav nav-pills nav-justified">
+        <li class="active"><a data-toggle="tab" href="#all">Show All</a></li>
+        <li><a data-toggle="tab" href="#datascience">Data Science</a></li>
+        <li><a data-toggle="tab" href="#dashboards">Dashboards</a></li>
+        <li><a data-toggle="tab" href="#webdevelopment">Web Development</a></li>
+      </ul><br><br><br>
+      <div class="tab-content">
+        <!-- all -->
+        <div id="all" class="tab-pane fade in active">
+          {% for post in site.posts %}
+          {% for category in post.category %}
+          {% if category != "Art" %}
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
                 </div>
+              </div>
+              <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
+            </a>
+            <div class="portfolio-caption text-center">
+              <h4>{{ post.title }}</h4>
+              <p class="text-muted">{{ post.subtitle }}</p>
             </div>
-            <div class="row">
-            {% for post in site.posts %}
-            {% for category in post.category %}
-            {% if category != "Art" %}
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
-                    </a>
-                    <div class="portfolio-caption text-center">
-                        <h4>{{ post.title }}</h4>
-                        <p class="text-muted">{{ post.subtitle }}</p>
-                    </div>
-                </div>
-            {% endif %}
-            {% endfor %}
-            {% endfor %}
-            </div>
+          </div>
+          {% endif %}
+          {% endfor %}
+          {% endfor %}
         </div>
-    </section>
+        <!-- Data Science -->
+        <div id="datascience" class="tab-pane fade in active">
+          {% for post in site.posts %}
+          {% for category in post.category %}
+          {% if category == "Data Science" %}
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+              <!-- <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+              <i class="fa fa-plus fa-3x"></i>
+            </div>
+          </div> -->
+          <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
+        </a>
+        <div class="portfolio-caption text-center">
+          <h4>{{ post.title }}</h4>
+          <p class="text-muted">{{ post.subtitle }}</p>
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+      {% endfor %}
+    </div>
+    <div id="dashboards" class="tab-pane fade in active">
+      {% for post in site.posts %}
+      {% for category in post.category %}
+      {% if category == "Dashboards" %}
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+          <!-- <div class="portfolio-hover">
+          <div class="portfolio-hover-content">
+          <i class="fa fa-plus fa-3x"></i>
+        </div>
+      </div> -->
+      <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
+    </a>
+    <div class="portfolio-caption text-center">
+      <h4>{{ post.title }}</h4>
+      <p class="text-muted">{{ post.subtitle }}</p>
+    </div>
+  </div>
+  {% endif %}
+  {% endfor %}
+  {% endfor %}
+</div>
+<div id="webdevelopment" class="tab-pane fade in active">
+  {% for post in site.posts %}
+  {% for category in post.category %}
+  {% if category == "Web Development" %}
+  <div class="col-md-4 col-sm-6 portfolio-item">
+    <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+      <!-- <div class="portfolio-hover">
+      <div class="portfolio-hover-content">
+      <i class="fa fa-plus fa-3x"></i>
+    </div>
+  </div> -->
+  <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
+</a>
+<div class="portfolio-caption text-center">
+  <h4>{{ post.title }}</h4>
+  <p class="text-muted">{{ post.subtitle }}</p>
+</div>
+</div>
+{% endif %}
+{% endfor %}
+{% endfor %}
+</div>
+</div>
+</div>
+</div>
+</section>

@@ -10,7 +10,7 @@ thumbnail: HDB-Resale-thumbnail.jpg
 alt: image-alt
 git: media/HDB-Resale-Price-Dashboard.pdf
 project-date: Sep 2020
-category: Dashboard
+category: Dashboards
 description: A dashboard showing the breakdown of Singapore's HDB resale prices from 2017 to 2020 made with Qlik.
 
 ---
