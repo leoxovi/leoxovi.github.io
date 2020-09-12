@@ -21,6 +21,7 @@ Shopee's I'm the Best Coder Challenge is the largest data analytics competition 
 [Round 2 Fraud Detection](https://www.kaggle.com/c/opn-rd2-acv) - Top - 83%
 
 # Certifications
+- Agile Certified Professional (PMI-ACP)™ by Project Management Institute (PMI)
 - CNSS Certified Netowrk Security Specialist by International Cybersecurity Institute, UK (ICSI)
 - NSE2 Network Security Associate by Fortinet
 - COBOL Programming with VSCode by IBM (Coursera)
