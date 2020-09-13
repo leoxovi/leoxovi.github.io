@@ -3,7 +3,7 @@ I picked up some basics in front-end development during the Covid-19 Circuit Bre
 
 
 # About Me
-I am an aspiring Electrical Engineer with a deep vested interest in software development, data science and visualisations. I enjoy working on a variety of topics with machine learning algorithms and explainable AI. You can find my linkedin profile <a href="https://www.linkedin.com/in/garryfung/">here</a>.
+I am an aspiring Electrical Engineer with a deep vested interest in software development, data science and visualisations. I enjoy working on software developments to automate and enhance routine processes in my day-to-day work and as well as epxplore a variety of topics in machine learning and explainable AI. You can find my linkedin profile <a href="https://www.linkedin.com/in/garryfung/">here</a>.
 
 # Past Projects
 - [Credit Risk Modelling in R](NA)
